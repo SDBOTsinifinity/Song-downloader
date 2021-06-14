@@ -1,1 +1,1 @@
-worker: python3 -m DihanSongbot
+worker: python3 -m JESongBot
