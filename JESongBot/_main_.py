@@ -1,4 +1,4 @@
-#Dihanofficial <https://t.me/dihan_official>
+#Dihanofficial <https://t.me/dihanofficial>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from JESongBot.plugins import *
