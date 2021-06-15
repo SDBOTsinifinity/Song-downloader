@@ -8,5 +8,6 @@ The easiest way to deploy this Song Bot  <br><br>
 
 Developer @dihanrandila
 
-Support Group - @dihan_official
-Updates Channel -@dihanofficial
+Support Group - https://t.me/dihan_official
+
+Updates Channel -httsp://t.me/dihanofficial
