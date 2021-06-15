@@ -10,4 +10,4 @@ Developer https://t.me/dihanrandila
 
 Support Group - https://t.me/dihan_official
 
-Updates Channel - httsp://t.me/dihanofficial
+Updates Channel - https://t.me/DihanOfficial
