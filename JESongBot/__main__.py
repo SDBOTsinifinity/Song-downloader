@@ -8,11 +8,14 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Hello there, I'm [Song Downloader Bot 🎵](https://telegra.ph/file/36bae3576c4b9418f4618.jpg)
+I'm a Powerful Songs Downloader bot Made by [𝘿𝙞𝙝𝙖𝙣 𝙍𝙖𝙣𝙙𝙞𝙡𝙖 🇱🇰](t.me/dihanrandila)
+
 😉 Just send me the song name you want to download.😋
-      eg:```/song Despacito```
+    
+eg: " /song Despacito "
       
-A bot by @dihanrandila 🇱🇰
+
 """
 
 @app.on_message(filters.command("start"))
@@ -24,12 +27,16 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
             [
                 [
-                     InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/dihanofficial"
-                    ),
                     InlineKeyboardButton(
-                        text="Developer 🔥", url="https://t.me/dihanrandila"
-                    )
+                        "🥰𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🙋‍♀️", url=f"https://t.me/dihanofficialsongsbot?startgroup=true")],
+                [
+                    InlineKeyboardButton(
+                        "𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 🇱🇰 🛠", url=f"https://t.me/dihanrandila"), 
+                    InlineKeyboardButton(
+                        "💬 Support", url=f"https://t.me/dihan_official")
+                ],[
+                    InlineKeyboardButton(
+                        "Dihan Official", url=f"https://t.me/dihanofficial")
                 ]
             ]
         )
