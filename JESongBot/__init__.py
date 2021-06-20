@@ -1,4 +1,4 @@
-#Dihanofficial <https://t.me/dihanrandila>
+#𝐒𝐚𝐝𝐞𝐰 𝐉𝐚𝐲𝐚𝐬𝐞𝐤𝐚𝐫𝐚 <https://t.me/darkridersslk>
 
 import logging
 from pyrogram import Client
