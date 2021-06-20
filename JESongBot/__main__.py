@@ -1,4 +1,4 @@
-#Dihanofficial <https://t.me/dihanofficial>
+#🇱🇰SL BOTs <https://t.me/slhitbotofficial>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from JESongBot.plugins import *
@@ -8,8 +8,8 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hello there, I'm [Song Downloader Bot 🎵](https://telegra.ph/file/36bae3576c4b9418f4618.jpg)
-I'm a Powerful Songs Downloader bot Made by [𝘿𝙞𝙝𝙖𝙣 𝙍𝙖𝙣𝙙𝙞𝙡𝙖 🇱🇰](t.me/dihanrandila)
+Hello there, I'm [Song Downloader Bot 🎵](https://telegra.ph/file/ce89cf2cc05c956c600d0.jpg)
+I'm a Powerful Songs Downloader bot Made by [𝐒𝐚𝐝𝐞𝐰 𝐉𝐚𝐲𝐚𝐬𝐞𝐤𝐚𝐫𝐚](t.me/darkridersslk)
 
 😉 Just send me the song name you want to download.😋
     
@@ -28,15 +28,15 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "🥰𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🙋‍♀️", url=f"https://t.me/dihanofficialsongsbot?startgroup=true")],
+                        "🥰𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🙋‍♀️", url=f"https://t.me/sdSLBOTSbot?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 🇱🇰 🛠", url=f"https://t.me/dihanrandila"), 
+                        "𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 🇱🇰 🛠", url=f"https://t.me/darkridersslk"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/dihan_official")
+                        "💬 Support", url=f"https://t.me/slhitofficialbot")
                 ],[
                     InlineKeyboardButton(
-                        "Dihan Official", url=f"https://t.me/dihanofficial")
+                        "🇱🇰SL BOTs", url=f"https://t.me/slhitbotofficial")
                 ]
             ]
         )
@@ -46,5 +46,5 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ DihanOfficialSongBot is online.")
+LOGGER.info("✅ sdSLBOTSbot is online.")
 idle()
