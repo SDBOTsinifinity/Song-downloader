@@ -1,5 +1,5 @@
 {
-    "name": "Dihan Song Bot",
+    "name": "SLBOTs Song dl",
     "description": "A bot that can download songs.",
     "logo": "",
     "keywords": [
@@ -10,7 +10,7 @@
     ],
     "website": "https://dihanrandila.blogspot.com",
     "repository": "https://github.com/dihanofficial/Song-downloader",
-    "success_url": "https://t.me/dihanofficial",
+    "success_url": "https://t.me/slhitbotofficial",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
